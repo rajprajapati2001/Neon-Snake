@@ -1,0 +1,5 @@
+{
+  "name": "Neon Snake",
+  "description": "A polished, mobile-friendly snake game with swipe controls, high scores, and a sleek neon aesthetic.",
+  "requestFramePermissions": []
+}
