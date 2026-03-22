@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  snake-game:
+    build: .
+    container_name: neon-snake-container
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    labels:
+      - "description=Success! Neon Snake is live at http://localhost:3000"
